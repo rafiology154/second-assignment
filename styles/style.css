@@ -99,8 +99,10 @@ a{
 }
 .plant{
     width: 1140px;
+    margin: 0 auto;
     text-align: center;
     margin: 0px auto;
+    margin-bottom: 20px;
 }
 .plant h2{
     font-size: 3rem;
@@ -111,3 +113,27 @@ a{
     .color-text{
         color: #474748;
     }
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        
+    }
+    .divva img{
+        height: 250px;
+    }
+    h4{
+        padding-left: 55px;
+    }
+    
+    .cart-btn {
+        font-weight: 700;
+    border: none;
+    height: 30px;
+    width: 77%;
+    background-color: #E95A08;
+    color: #e8e6e2;
+    cursor: pointer;
+}
