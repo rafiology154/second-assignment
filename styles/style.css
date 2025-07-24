@@ -1,0 +1,22 @@
+body{
+
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
