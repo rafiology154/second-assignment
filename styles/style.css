@@ -59,3 +59,55 @@ a{
     color: #474748;
     font-size: 20px;
 }
+
+.primary{
+    color: #E95A08;
+}
+.baner-main{
+    width: 1140px;
+    height: 461px;
+}
+.baner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.banner-t{
+    width: 500px;
+    margin: 0px auto;
+}
+.banner-t h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.banner-t p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 350px;
+}
+.banner{
+    width: 500px;
+    height: 355px;
+    margin: 0px auto;
+}
+.banner img{
+    height: 300px;
+}
+.ex{
+    color: #776f6f;
+}
+.plant{
+    width: 1140px;
+    text-align: center;
+    margin: 0px auto;
+}
+.plant h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.plant p{
+    font-size: 1rem;}
+    .color-text{
+        color: #474748;
+    }
