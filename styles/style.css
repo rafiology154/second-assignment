@@ -178,6 +178,17 @@ body {
   display: block;
 }
 
+@keyframes spinClockwise {
+  from {
+    transform: translate(50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(50%, -50%) rotate(360deg);
+  }
+}
+
+
+
 .badge {
   position: absolute;
   top: 0;
@@ -187,6 +198,7 @@ body {
   height: auto;
   display: block;
   z-index: 10;
+  animation: spinClockwise 6s linear infinite;
 }
 
 .text-section {
